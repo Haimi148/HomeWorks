@@ -1,0 +1,117 @@
+
+# --------------------------------------------------------------------------------------------
+# 3.23 Lab: Song Writer
+# Modify the code the way you want, just in case they use HW copying
+verse1_lyrics = """Sitting on a cornflake, waiting for the van to come
+Corporation tee-shirt, stupid bloody Tuesday
+Man, you've been a naughty boy, you let your face grow long"""
+verse2_lyrics = """Mister City, policeman sitting
+Pretty little policemen in a row
+See how they fly like Lucy in the Sky, see how they run
+I'm crying, I'm crying"""
+verse3_lyrics = """Sitting in an English garden waiting for the sun
+If the sun don't come, you get a tan
+From standing in the English rain"""
+chorus_lyrics = """I am the egg man, they are the egg men
+I am the walrus, goo goo g'joob"""
+
+def main():
+    # call other functions here
+    verse1()
+    print()
+    chorus()
+    print()
+    verse2()
+    print()
+    chorus()
+    print()
+    verse3()
+    print()
+    chorus()
+
+# these functions should print to standard output
+# they should take no parameters, and instead use the strings defined at the top level scope
+def verse1():
+    print(verse1_lyrics)
+def verse2():
+        print(verse2_lyrics)
+def verse3():
+        print(verse3_lyrics)
+
+    
+def chorus():
+        print(chorus_lyrics)
+    
+''' here we call the main function '''
+main()
+
+
+
+
+# --------------------------------------------------------------------------------------------
+# 3.24 Lab: Functions as arguments
+
+koala = """
+             |       :     . |
+             | '  :      '   |
+             |  .  |   '  |  |
+   .--._ _...:.._ _.--. ,  ' |
+  (  ,  `        `  ,  )   . |
+   '-/              \-'  |   |
+     |  o   /\   o  |       :|
+     \     _\/_     / :  '   |
+     /'._   ^^   _.;___      |
+   /`    `""""""`      `\=   |
+ /`                     /=  .|
+;             '--,-----'=    |
+|                 `\  |    . |
+\                   \___ :   |
+/'.                     `\=  |
+\_/`--......_            /=  |
+            |`-.        /= : |
+            | : `-.__ /` .   |
+            |    .   ` |    '|
+            |  .  : `   . |  |"""
+
+
+def exec_2(f):
+    f()
+    f()
+
+def exec_4(f):
+    # define this function using exec_2
+    exec_2(f)
+    exec_2(f)
+    
+# define a new function here that prints out the koala once
+def koala_print():
+
+    print(koala, end="")
+# use your function and exec_4 to draw 4 koala bears!
+    exec_4(koala_print)
+
+
+# --------------------------------------------------------------------------------
+# 3.25 Lab: House Renovation
+
+sqft_per = 200.0
+labor_hour = 40.0
+exorcism = 100.0
+
+def paint():
+    gallons = sqft_painted / sqft_per
+    hours = gallons * 8
+    paint_cost = gallons * ppg
+    labor_cost = hours * labor_hour
+    exorcism_cost = demons * exorcism
+    total = paint_cost + labor_cost + exorcism_cost
+    print('(' + str(gallons) + ', ' + str(hours) + ', ' + str(paint_cost) + ', ' + str(labor_cost) + ', ' + str(exorcism_cost) + ', ' + str(total) + ')')
+
+sqft_painted = float(input("How many sqft is required to be painted?\n"))
+ppg = float(input("What is the paint price per gallon?\n"))
+demons = float(input("How many demons need to be exorcised?\n"))
+
+paint()
+
+
+# -----------------------------------------------------------------------------------------

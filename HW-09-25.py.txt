@@ -107,7 +107,7 @@ exorcism = 100.0
 
 def paint():
     gallons = sqft_painted / sqft_per
-    hours = gallons * 8
+    hours = gallons * 10
     paint_cost = gallons * ppg
     labor_cost = hours * labor_hour
     exorcism_cost = demons * exorcism

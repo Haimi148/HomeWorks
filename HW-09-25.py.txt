@@ -1,7 +1,14 @@
+# Modify the code the way you want, just in case they use HW copying
+# Modify the code the way you want, just in case they use HW copying
+# Modify the code the way you want, just in case they use HW copying
+# Modify the code the way you want, just in case they use HW copying
+# Modify the code the way you want, just in case they use HW copying
+# Modify the code the way you want, just in case they use HW copying
+# Modify the code the way you want, just in case they use HW copying
+# Modify the code the way you want, just in case they use HW copying
 
 # --------------------------------------------------------------------------------------------
 # 3.23 Lab: Song Writer
-# Modify the code the way you want, just in case they use HW copying
 verse1_lyrics = """Sitting on a cornflake, waiting for the van to come
 Corporation tee-shirt, stupid bloody Tuesday
 Man, you've been a naughty boy, you let your face grow long"""

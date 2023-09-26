@@ -92,10 +92,10 @@ def exec_4(f):
     
 # define a new function here that prints out the koala once
 def koala_print():
-
-    print(koala, end="")
 # use your function and exec_4 to draw 4 koala bears!
-    exec_4(koala_print)
+    print(koala, end="")
+exec_4(koala_print)
+
 
 
 # --------------------------------------------------------------------------------
